@@ -40,7 +40,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 2px;
 }
 
@@ -68,13 +68,13 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #667eea;
+    color: #3b82f6;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-logo a:hover {
-    color: #764ba2;
+    color: #1d4ed8;
 }
 
 .nav-menu {
@@ -92,7 +92,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #667eea;
+    color: #3b82f6;
 }
 
 .nav-link::after {
@@ -102,7 +102,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #667eea;
+    background: #3b82f6;
     transition: width 0.3s ease;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .highlight {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -160,7 +160,7 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #667eea;
+    color: #3b82f6;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -191,23 +191,23 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #667eea;
-    border: 2px solid #667eea;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
 }
 
 .btn-secondary:hover {
-    background: #667eea;
+    background: #3b82f6;
     color: white;
     transform: translateY(-2px);
 }
@@ -218,17 +218,17 @@ body {
     align-items: center;
 }
 
-.profile-placeholder {
+.profile-image {
     width: 300px;
     height: 300px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 5rem;
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
 }
 
 /* About Section */
@@ -272,7 +272,7 @@ body {
 
 .stat h3 {
     font-size: 2rem;
-    color: #667eea;
+    color: #3b82f6;
     margin-bottom: 0.5rem;
 }
 
@@ -284,14 +284,14 @@ body {
 .about-placeholder {
     width: 250px;
     height: 250px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 4rem;
-    box-shadow: 0 15px 30px rgba(102, 126, 234, 0.2);
+    box-shadow: 0 15px 30px rgba(59, 130, 246, 0.2);
 }
 
 /* Skills Section */
@@ -347,7 +347,7 @@ body {
 
 .skill-item i {
     font-size: 1.5rem;
-    color: #667eea;
+    color: #3b82f6;
 }
 
 .skill-item span {
@@ -469,7 +469,7 @@ body {
 .project-placeholder {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -516,7 +516,7 @@ body {
 }
 
 .project-link {
-    color: #667eea;
+    color: #3b82f6;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
